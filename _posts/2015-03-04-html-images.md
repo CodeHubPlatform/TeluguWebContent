@@ -34,7 +34,7 @@ The `src` attribute defines the **location** of the image. As with links, you ca
 <p>
   Look at this spacecraft landing!
   <br>
-  <img src="soyuz-spacecraft.jpg">
+  <img src="https://codehubplatform.github.io/EnglishWebContent/images/soyuz-spacecraft.jpg">
 </p>
 {% endhighlight %}
 
@@ -42,7 +42,7 @@ The `src` attribute defines the **location** of the image. As with links, you ca
   <p>
     Look at this spacecraft landing!
     <br>
-    <img src="/images/soyuz-spacecraft.jpg">
+    <img src="https://codehubplatform.github.io/EnglishWebContent/images/soyuz-spacecraft.jpg">
   </p>
 </div>
 
@@ -74,7 +74,7 @@ This inline behavior can have unexpected results:
 <div class="result">
   <p>
     There is a frog
-    <img src="/images/frog.jpg">
+    <img src="https://codehubplatform.github.io/EnglishWebContent/images/frog.jpg">
     in the middle of the paragraph!
   </p>
 </div>

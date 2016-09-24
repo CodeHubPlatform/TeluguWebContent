@@ -34,7 +34,7 @@ The `src` attribute defines the **location** of the image. As with links, you ca
 <p>
   Look at this spacecraft landing!
   <br>
-  <img src="https://codehubplatform.github.io/EnglishWebContent/images/soyuz-spacecraft.jpg">
+  <img src="soyuz-spacecraft.jpg">
 </p>
 {% endhighlight %}
 

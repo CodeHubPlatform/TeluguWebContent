@@ -3,7 +3,7 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   
   'index.html',
-  {% for post in site._posts %}
+  {% for post in site.posts %}
       '{{ post.url }}',
   {% endfor %}
 ];

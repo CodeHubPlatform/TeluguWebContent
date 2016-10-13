@@ -6,6 +6,7 @@ var filesToCache = [
   'index.html',
   '/EnglishWebContent//2015/01/01/introduction.html',
   '/EnglishWebContent//2015/01/02/internet.html',
+  'EnglishWebContent//2015/01/03/web.html',
   '/EnglishWebContent//2015/01/04/browser.html'
 ];
 

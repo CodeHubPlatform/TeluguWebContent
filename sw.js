@@ -3,8 +3,7 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   
   'index.html',
-  '/EnglishWebContent//2015/01/02/internet.html',
-  'https://codehubplatform.github.io/EnglishWebContent//2015/01/02/internet.html'
+  '/EnglishWebContent//2015/01/02/internet.html'
 ];
 
 self.addEventListener('install', function(event) {

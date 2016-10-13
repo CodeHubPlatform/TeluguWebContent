@@ -1,6 +1,6 @@
 importScripts('https://codehubplatform.github.io/EnglishWebContent/cache-polyfill.js');
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [
+var cacheName = 'my-site-cache-v1';
+var filesToCache = [
   '/EnglishWebContent/css/main.css',
   '/EnglishWebContent/javascript/marksheet.js',
   'index.html',

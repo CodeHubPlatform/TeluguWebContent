@@ -3,9 +3,9 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   
   'index.html',
-  {% for page in site.posts %}
-      '{{ page.url }}',
-    {% endfor %}
+  {% for post in site.posts %}
+      '{{ post.url }}',
+  {% endfor %}
 ];
 
 self.addEventListener('install', function(event) {

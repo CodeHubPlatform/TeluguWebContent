@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML <strong>Block</strong> and <strong>Inline</strong>"
+title: "HTML <strong>ఎలెమెంట్స్</strong>"
 subtitle: "HTML లో 2 ప్రధాన రకాల ఎలెమెంట్స్ ఉన్నాయి"
 section: html
 ---

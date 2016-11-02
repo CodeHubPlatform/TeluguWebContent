@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML <strong>Images</strong>"
+title: "HTML <strong>చిత్రాలు</strong>"
 subtitle: "The major <strong>media</strong> on the Web"
 section: html
 ---

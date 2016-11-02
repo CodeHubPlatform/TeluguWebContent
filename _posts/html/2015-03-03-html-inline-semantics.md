@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<strong>Inline</strong> semantics"
+title: "<strong>Inline</strong> టాగ్లు"
 subtitle: "The small parts <em>within</em> a block of text"
 section: html
 ---

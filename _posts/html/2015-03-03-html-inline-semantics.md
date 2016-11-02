@@ -5,87 +5,79 @@ subtitle: "The small parts <em>within</em> a block of text"
 section: html
 ---
 
-While paragraphs and lists are meant to identify whole **blocks** of text, we sometimes want to provide meaning to a word (or a few words) _within_ a text.
 
+ పేరాగ్రాఫులు మరియు జాబితాలు  మొత్తం  బ్లాక్స్  యొక్క సమాచారాన్ని  గుర్తించడానికి ఉదేశించబడినవి. అయితే మేము కొన్ని సందర్భాలలో వాటి గురించి వివరణ ఇస్తాము.
 ### Strong
 
-For **important** words, use the `<strong>` tag:
-
+కొన్ని  ముఖ్యమైన  పదాలు కోసం `<strong>` ట్యాగ్ను వాడవచ్చును
 {% highlight html %}
 <p>
-  This is <strong>important</strong> but this is not.
+  ఇది <strong> ముఖ్యమైంది , </ strong> ట్యాగ్ను దీనికి  అంతగా ప్రదానము లేదు .
 </p>
 {% endhighlight %}
 
 <div class="result">
   <p>
-    This is <strong>important</strong> but this is not.
+    ఇది <strong> ముఖ్యమైంది , </ strong>ఈ ట్యాగ్ను దీనికి  అంతగా ప్రదానము లేదు.
   </p>
 </div>
 
-By default, `<strong>` elements are displayed in **bold**, but keep in mind that it is only the browser's default behavior. Don't use `<strong>` _only_ to put some text in bold, but rather to give it more **importance**.
+By default, `<strong>` కొన్ని అంశాలు బోల్డ్ లో   కనిపిస్తాయి , కానీ అది బ్రౌజరుయొక్క డిఫాల్ట్  అని గుర్తుంచుకోండి . బోల్డ్ లో కొంత టెక్స్ట్ ఉంచాలి `<strong>` _only_ కానీ ఉపయోగించడానికి వేలు  లేదు, దిలీకి బదులుగా ఇంకా నమాచరం ఇస్తాము 
 
 ### Emphasis
 
-For _emphasized_ words, use the `<em>` tag:
-
+_emphasized_ పదాలు కోసం, `<em>`ఈ ట్యాగ్ను వాడవచ్చును
 {% highlight html %}
 <p>
-  This is <em>emphasized</em> but this is not.
+ ఇది <em> emphasizeds </ em>ఈ ట్యాగ్ను కానీ ఇది కాదు.
 </p>
 {% endhighlight %}
 
 <div class="result">
   <p>
-    This is <em>emphasized</em> but this is not.
+ ఇది <em> emphasizeds </ em>ఈ ట్యాగ్ను కానీ ఇది కాదు.
   </p>
 </div>
 
-By default, `<em>` elements are displayed in _italic_, but keep in mind that it is only the browser's default behavior. Don't use `<em>` _only_ to put some text in italic, but rather to give it _stress emphasis_.
-
+మీరు `<em>` అని రాస్తే అది _italic_ భాషాలో ప్రదశించబడుతుంది 
 ### Abbreviations
 
-Abbreviations like W3C or CD can use the `<abbr>` element:
-
+W3C లేదా CD వంటి నిర్వచనాలు  `<abbr>` లో  ఉపయోగించవచ్చు:
 {% highlight html %}
 <p>
   I just bought a <abbr>CD</abbr>.
 </p>
 {% endhighlight %}
 
-You can add a `title` **attribute** to specify the abbreviation's description, which will appear by hovering the element:
-
+మీరు ముఖ్యమైన అంశాల్ని `title` ** వ్రాసుకోవచ్చు  **:
 {% highlight html %}
 <p>
-  I just bought a <abbr title="Compact Disc">CD</abbr>.
-</p>
+
+ మీరు  <abbr title = "Compact Disc">CD </ abbr> అని రాస్తే అది CD మీద  క్లిక్ చేసినపుడు అది నిర్వచనం ఇస్తుంది </p>
 {% endhighlight %}
 
 <div class="result">
   <p>
-    I just bought a <abbr title="Compact Disc">CD</abbr>.
+ మీరు  <abbr title = "Compact Disc">CD </ abbr> అని రాస్తే అది CD మీద  క్లిక్ చేసినపుడు అది నిర్వచనం ఇస్తుంది </p>
   </p>
 </div>
 
 ### Inline quotes
 
-The `<blockquote>` element is a **block-level** element. It has an **inline** version: `<q>`:
-
+<Blockquote>` అనేది  ఒక ** బ్లాక్ స్థాయి ** అంశం. `<Q>`: ఇది ఒక ** online **వార్సిన్.
 {% highlight html %}
 <p>
-  He said <q>“Hello World”</q> and just left.
-</p>
+అతను చెప్పారు <q> "HELLO World" </ q> మరియు '/'  అనేది ఎడమ వైపు ఉండాలి</p>
 {% endhighlight %}
 
 <div class="result">
   <p>
-    He said <q>“Hello World”</q> and just left.
+అతను చెప్పారు <q> "HELLO World" </ q> మరియు '/'  అనేది ఎడమ వైపు ఉండాలి</p>
   </p>
 </div>
 
 ### Other inline elements
 
-There are plenty of other [inline semantic elements](https://developer.mozilla.org/en/docs/Web/HTML/Element#Inline_text_semantics) to choose from, but we've covered the most common ones.
-
+మీరు ఎంపికచేసుకోవడనికి  ఇతర [inline అర్థ అంశాలు] (https://developer.mozilla.org/en/docs/Web/HTML/Element#Inline_text_semantics) అందుబాటులో  ఉన్నాయి
 *[CD]: Compact Disc
 *[W3C]: World Wide Web Consortium

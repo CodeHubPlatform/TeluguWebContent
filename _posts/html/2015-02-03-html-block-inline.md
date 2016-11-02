@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "HTML <strong>Block</strong> and <strong>Inline</strong>"
-subtitle: "HTML has 2 main <strong>types</strong> of elements"
+subtitle: "HTML లో 2 ప్రధాన రకాల ఎలెమెంట్స్ ఉన్నాయి"
 section: html
 ---
 
-In HTML, you'll mainly come across 2 types of HTML elements:
+HTML లో, మీరు ప్రధానంగా 2 రకాల ఎలెమెంట్స్ చూడవచ్చు :
 
-* **block** elements like:
+* **block** ఎలెమెంట్స్ అంటే :
 
     * paragraphs `<p>`
     * lists: unordered (with bullet points) `<ul>` or ordered lists (with numbers) `<ol>`
@@ -16,7 +16,7 @@ In HTML, you'll mainly come across 2 types of HTML elements:
     * sections `<section>`
     * long quotes `<blockquote>`
 
-* **inline** elements like:
+* **inline** ఎలెమెంట్స్ అంటే :
 
     * links `<a>`
     * emphasised words `<em>`
@@ -24,7 +24,7 @@ In HTML, you'll mainly come across 2 types of HTML elements:
     * short quotes `<q>`
     * abbreviations `<abbr>`
 
-**Block** elements are meant to **structure** the main parts of your page, by dividing your content in _coherent_ blocks.
+**Block** ఎలెమెంట్స్ అనేవి మీ యొక్క వెబ్ పేజీ లో ప్రధాన భాగాలను  ** స్ట్రక్చర్  ** చేయడం కొరకు ఉపయోగపడును.
 
 **Inline** elements are meant to differentiate _part_ of a text, to give it a particular function or meaning. Inline elements usually comprise a single or few words.
 
@@ -35,7 +35,7 @@ In HTML, you'll mainly come across 2 types of HTML elements:
 
 ### Opening and closing tags
 
-**All** block-level elements have an opening and closing tags.
+అన్ని black-level ఎలిమెంట్లు ఒక ప్రారంభ మరియు ముగింపు tags కలిగి ఉన్నాయి.
 
 As a result, self-enclosing elements are **inline** elements, simply because their syntax don't allow them to contain any other HTML element.
 
@@ -85,9 +85,9 @@ As a result, self-enclosing elements are **inline** elements, simply because the
   </table>
 </div>
 
-### Other types of HTML elements
+### HTML ఎలెమెంట్స్ ఇతర రకాల
 
-There are several exceptions to the block/inline elements, but the ones you will most often encounter are:
+Black / inline ఎలెమెంట్స్ లో అనేక మినహాయింపులు ఉన్నాయి, కానీ మీరు చాలా తరచుగా ఎదుర్కొనేవి ఇవి ::
 
 * **list items** for the `<li>`
 * **table**, **table rows**, **table cells** for `<table>`, `<tr>` and `<td>` respectively

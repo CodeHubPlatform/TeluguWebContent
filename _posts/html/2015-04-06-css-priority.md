@@ -5,7 +5,7 @@ subtitle: "When several rules <strong>collide</strong>"
 section: css
 ---
 
-An HTML element can be targeted by **multiple CSS rules**. Let's use a simple paragraph for example:
+ఒక HTML ఎలిమెంట్  బహుళ CSS నియమాలు లక్ష్యం చేసుకుంటుంది.  ఉదాహరణకు ఒక సాధారణ paragraph ఉపయోగిస్తాను::
 
 {% highlight html %}
 <p class="message" id="introduction">
@@ -13,31 +13,31 @@ An HTML element can be targeted by **multiple CSS rules**. Let's use a simple pa
 </p>
 {% endhighlight %}
 
-We can alter this paragraph just by using its **tag name**:
+మేము కేవలం దాని **tag** పేరు ఉపయోగించి ఈ paragraph మార్చుకోగలం:
+
 
 {% highlight css %}
 p{ color: blue;}
 {% endhighlight %}
 
-Or we can use its **class name**:
-
+లేదా మేము దాని **Class** పేరు ఉపయోగించవచ్చు:
 {% highlight css %}
 .message{ color: green;}
 {% endhighlight %}
 
-Or we can use its **id**:
+లేదా మేము దాని **id** పేరు ఉపయోగించవచ్చు:
 
 {% highlight css %}
 #introduction{ color: red;}
 {% endhighlight %}
 
-Because the browser can only pick **one color** to apply on this paragraph, it will have to decide which CSS rule takes **priority** over other ones. This is what CSS priority (or CSS _specificity_ is about).
+బ్రౌజర్ ఒక రంగును మాత్రమే  ఈ పేరా కు  దరఖాస్తు ఎంచుకోవచ్చు  ఎందుకంటే, ఇది నిరణయించుకొంటూ  ఉంటుంది ఇతర వాటి నుండి  ఏ  CSS రూల్స్ ప్రాధాన్యత తీసుకొంటాయి. ఇది  CSS ప్రాధాన్యత (లేదా CSS విశిష్టత గురించి).
 
-In our example, the paragraph will be **red** because an `#id` selector is more _specific_ and thus more **important** than other selectors.
+మా ఉదాహరణలో, పేరా ఎరుపు ఉంటుంది ఎందుకంటే ఒక #ID సెలెక్టర్ మరింత నిర్దిష్ట మరియు ఇతర సెలెక్టర్లు కన్నా మరింత ముఖ్యం.
 
 ### Order of CSS rules
 
-If similar selectors are in your CSS, the last one defined will take priority.
+ మీ CSS లో ఇలాంటి సెలెక్టర్లు ఉంటే, చివరిగా నిర్వచించిన ఒక దానికి ప్రాధాన్యత ఉంటుంది.
 
 {% highlight css %}
 p{ color: green;}
@@ -47,11 +47,11 @@ p{ color: red;}
 
 ### The 100 measure
 
-One quick way to figure out how "powerful" a CSS rule is, is by measuring the specificty of the **selectors**:
+ఎలా "శక్తివంతమైన" ఒక CSS పాలన గుర్తించడానికి ఒక శీఘ్ర మార్గం, సెలెక్టర్ల విశిష్టత కొలవడం ద్వారా ఉంది:
 
-* `#id` selectors are worth 100
-* `.class` selectors are worth 10
-* `tag` selectors are worth 1
+* `#id` selectors విలువ 100
+* `.class` selectors విలువ 10
+* `tag` selectors విలువ 1
 
 The selector with the highest "score" will prevail, _no matter the order in which the CSS rules appear_.
 

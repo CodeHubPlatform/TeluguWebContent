@@ -5,48 +5,41 @@ subtitle: "The <strong>core</strong> of the Web"
 section: html
 ---
 
-**Links** are essential in HTML, as the Web was initially designed to be an information network of documents **linked** between each other.
-
-The _"HyperText"_ part of HTML defines what kind of links we use: _hypertext_ links, a.k.a **hyperlinks**.
-
-In HTML, links are **inline elements** written with the `<a>` tag.
-
-The `href` attribute (hypertext reference) is used to define the **target** of the link (where you navigate to when you click).
-
+ప్రతి ఇతర మధ్య సమాచార  అందిపుచ్చుకోవడానికి , HTML అవసరం.
+ఈ "HyperText"అనేది HTML లో వక భాగము. ఇది మీరు ఎటువంటి Links ని ఉపయోగిస్తున్నారో తెలుపుతుంది 
+HTML లో  inline element ను `<a>`ఈ  ట్యాగ్ తో రాస్తారు.
+`Href` అనేది  (హైపర్టెక్స్ట్ సూచన)  (మీరు  దేనిని క్లిక్ చేసినప్పుడు అది నావిగేషన్  లో )  నిర్వచిస్తుంది సూచిస్తుంది 
 {% highlight html %}
 <p>
-  To search for something, visit <a href="http://www.google.com">Google</a>.
-</p>
+ ఇతర సమాచారం కొరకు  <a href="http://www.google.com"> Google </a> సందర్శించండి.</p>
 {% endhighlight %}
 
 <div class="result">
   <p>
-    To search for something, visit <a href="http://www.google.com">Google</a>.
+    ఇతర సమాచారం కొరకు  <a href="http://www.google.com"> Google </a> సందర్శించండి.
   </p>
 </div>
 
-Links are the **primary** interaction of a webpage: you navigate from one document to another by clicking on links.
+webpages లో links ప్రాధమిక  సమాచారం  కోసం ఉన్నాయి మీరు లింక్లపై క్లిక్ చేయడం ద్వారా మరి కొంత సమాచారం పొందవచ్చు 
 
-There are **3** types of target you can define.
-
-* **anchor** targets, to navigate within the _same page_
-* **relative** URLs, usually to navigate within the _same website_
-* **absolute** URLs, usually to navigate to _another_ website
+ఇందులో 3 భాగాలు ఉన్నాయి 
+* **anchor**లక్ష్యాలు మరియు నావిగేషన్ వక పేజీ లో ఉంటాయి 
+* **relative** URLs లు, సాధారణంగా ఒకే వెబ్ సైట్లో ఉంటాయి 
+* **absolute**URLs లు, సాధారణంగా వేరొక వెబ్ సైట్లో ఉంటాయి
 
 ### Anchor targets
 
-**Anchor** target to navigate _within_ the **same** page. By prepending your href with `#`, you can target an HTML element with a specific `id` attribute.
+**Anchor** లక్ష్యాలు మరియు నావిగేషన్ వక పేజీ లో ఉంటాయి .  `#` తో మీరు ఒక నిర్దిష్టమైన  ID`ద్యారా  ఒక HTML లక్ష్యంగా చేసుకోవచ్చు.
 
 For example, `<a href="#footer">` will navigate to the `<div id="footer">` within the same HTML document. This type of href is often used to navigate back to the top of the page.
 
 ### Relative URLs
 
-If you want to define a link to another page of the _same_ website, you can use **relative** URLs.
-
+మీరు అదే వెబ్సైట్ మరొక పేజీకి వెళ్లాలి అంటి  URL లు ఉపయోగించవచ్చు
 But relative to what? Well, relative to the **current page**.
 
-Let's use a simple example where the folder `my-first-website` contains 2 HTML files:
 
+వక ఉదాహరణ చూదాం
 <ul class="files">
   <li>
     <i class="fa fa-folder-o"></i>
@@ -64,10 +57,10 @@ Let's use a simple example where the folder `my-first-website` contains 2 HTML f
   </li>
 </ul>
 
-In `home.html`, you want to define a link to `contact.html`.
+`ఈ home.html`, మీరు` contact.html` ఒక లింక్ను వివరించేందుకు ఉపయోగపడుతుంది .
 
-As the two files are **in the same folder**, you can simply write in `home.html`:
 
+రెండు ఫైళ్లను వకి ఫోల్డర్  లో ఉంటి  కేవలం `home.html` వ్రస్థి సరిపోతింది 
 {% highlight html %}
 <p>
   Go to the <a href="contact.html">contact page</a>.
@@ -80,10 +73,8 @@ As the two files are **in the same folder**, you can simply write in `home.html`
   </p>
 </div>
 
-On an actual website, the process is similar.
-
-Let's say you have a website called `http://ireallylovecats.com` on which you have 2 webpages: `index.html` and `gallery.html`:
-
+ఒక వాస్తవ వెబ్సైట్లో, ప్రక్రియ పోలి ఉంటుంది.
+ఈ website లో http://ireallylovecats.com ,index.html మరియు gallery.html అనీ  2 webpages ఉన్నాయి 
 <ul class="files">
   <li>
     <i class="fa fa-folder-o"></i>
@@ -114,19 +105,17 @@ Remember: websites are hosted on **computers** just like the one you're currentl
 
 ### Absolute URLs
 
-If you wanted to share your cats gallery with a friend, you wouldn't be able to just send `gallery.html`, as this **relative** URL only works for HTML documents that are on the same **computer** or same **domain**.
+మీరు ఒక friends తో మీ childrens గ్యాలరీ భాగస్వామ్యం అనుకుంటే, మీరు కేవలం gallery.html` పంపడానికి కుదురుతుంది ,URL కేవలం  కంప్యూటర్లో ఉండే HTML డాక్యుమెంట్లకు పనిచేస్తుంది 
+పూర్తి సమాచారం కొరకు  `http://ireallylovecats.com/gallery.html`.
 
-You need the _complete_ URL to your HTML document: `http://ireallylovecats.com/gallery.html`.
-
-This URL can be segmented in 3 parts:
+ఈ URL 3 భాగాలు విభజింపబడినది 
 
 * **protocol** `http://`
 * **domain** `ireallylovecats.com`
 * **file path** `gallery.html`
 
-This **absolute URL** is **self-sufficient**: no matter where you use the link form, it contains _all_ the information required to find the correct file, on the correct domain, with the correct protocol.
-
-You usually use absolute URLs defining a link from _your_ website to _another_ website.
+ఈ URL ఉపయోగించి మీరు యకుడైన పూర్తి సమాచారం పొందవచ్చు 
+మీరు సాధారణంగా వెబ్ URL ద్యారా వక WEB SITE నుండీ కావచ్చు 
 
 In your `http://ireallylovecats.com/gallery.html` file, you could write:
 
@@ -138,6 +127,5 @@ In your `http://ireallylovecats.com/gallery.html` file, you could write:
 
 ### Relative or absolute links?
 
-Let's say you want to link from the first to the second. The most direct approach is to use the absolute URL. So you add `<a href="http://ireallylovecats.com/gallery.html">Go the second page</a>` in your `index.html` file.
-
-Because the two files are in the same directory, you could use the **relative** URL by using `<a href="first-blog-post.html">`. This is useful if you decide to move your directory: your links won't be broken because the link targets are relative to each other, as long as you move both files simultaneously and keep them in the same directory. This relative approach is particularly useful when switching domains.
+ఉదాహరణకు  మొదటి నుండి రెండవ లింకు అనుకుందాం. మీరు పూర్తిగా URL ఉపయోగిస్తారు. సో మీరు href="http://ireallylovecats.com/gallery.html"> వెళ్ళండి రెండవ పేజీ </a> `మీ` index.html` ఫైలులో `<a అని రాయండి 
+రెండు ఫైళ్లను అదే డైరెక్టరీలో ఉంటాయి ఎందుకంటే, మీరు `<a href="first-blog-post.html">` ఉపయోగించారు . మీరు ఒకేసారి రెండు ఫైళ్లు తరలించి  మరియు అదే డైరెక్టరీ ఉంచారు   డొమైన్లు మారినప్పుడు ఈ సంబంధిత విధానం ఉపయోగపడుతుంది.

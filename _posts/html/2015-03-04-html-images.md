@@ -5,14 +5,12 @@ subtitle: "The major <strong>media</strong> on the Web"
 section: html
 ---
 
-**Images** are the first non-textual content to have appeared on the Web. Most image formats you can find on your computer can also be displayed in your browser: `.jpg`, `.gif` (animated or not), `.png` (transparent or not), `.bmp`...
-
+Images అన్ని లో ఉంటాయి `.jpg`, `.gif` formats లో ఉంటాయి .
 ### Syntax
 
 **Images** use the `<img>` element, which is a **self-closing** element (it only has an opening tag).
 
-The `src` attribute defines the **location** of the image. As with links, you can either use _relative_ or _absolute_ URLs.
-
+'src'_relative_ లేదా _absolute_ URL లు ఉపయోగించవచ్చు.
 <ul class="files">
   <li>
     <i class="fa fa-folder-o"></i>
@@ -48,21 +46,15 @@ The `src` attribute defines the **location** of the image. As with links, you ca
 
 ### Dimensions
 
-Every image has **2 dimensions**: a **width** and a **height**. The previously shown spacecraft image is 394 pixels wide and 284 high.
-
-When inserting an image in HTML, you **don't need to specify its dimensions**: the browser will automatically display it in **full size**.
-
-If you want to alter the dimensions of an image, although it is possible in HTML, it's recommended to use CSS, as we'll see in later chapters.
-{: .info}
-
+ప్రతి చిత్రం  2 కొలతలు ఉంటాయి. ఒక ** వెడల్పు ** మరియు ఒక ** ఎత్తు 
+HTML లో ఒక చిత్రం insert చేసినప్పుడు, మీరు దాని కొలతలు పేర్కొనాలి
+మీరు HTML లో వాకా అవకాశం ఉంది  అది చిత్రం యొక్క కొలతలు మార్చుకోవచ్చు
 ### Block or inline?
 
-Although an image has a width and a height, and is visually a big rectangle, an image is **not an HTML block element** but actually an **inline element**.
 
-This is due to the `<img>` element being a **self-closing** element: it can't technically contain any other HTML element, and is thus considered an inline element, like `<a>`, `<strong>` or `<em>`.
-
-This inline behavior can have unexpected results:
-
+ఒక చిత్రం వెడల్పు మరియు ఎత్తు, మరియు దృష్టి ఒక పెద్ద చతురస్రం అయినప్పటికీ, ఒక చిత్రం  ఒక HTML బ్లాక్ యోక్క  element ఇన్లైన్ element గా ఉన్నటుంది 
+`<img>` అనీ వక మూలకం ఒక  స్వీయ ముగింపు మూలకం: ఇది సాంకేతికంగా ఏ ఇతర HTML మూలకం ఉండకూడదు, ఇటువంటి `<a>` `<strong>`లేదా` <em> టాగ్స్  ద్వారా రాస్తారు 
+ ఈ inline ఊహించని ఫలితాలు ఇస్తుంది 
 {% highlight html %}
 <p>
   There is a frog
@@ -79,4 +71,4 @@ This inline behavior can have unexpected results:
   </p>
 </div>
 
-Because in HTML the **content is king**, images will be displayed regardless of the quirky layout it might induce, and thoughtfully so.
+ఎందుకంటే HTML లో  content is king చిత్రాలు  కాబట్టి  quality ప్రదర్శించబడుతుంది.

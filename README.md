@@ -1,9 +1,8 @@
-# [Marksheet](http://marksheet.io): a free HTML and CSS tutorial
+CodeHub: 
 
-[![Marksheet screenshot](https://raw.github.com/jgthms/marksheet/master/images/marksheet-free-html-css-tutorial.png)](http://marksheet.io)
+Android App: https://play.google.com/store/apps/details?id=trycodehub.com
 
-# License
+On Web : Codehubplatform.github.io/EnglishWebContent/
 
-The content of this project itself is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-The underlying source code used to format and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
+Contenet is Adapted from Marksheet. Thanks Marksheet. 
